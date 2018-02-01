@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CCE74FAA-CC9F-42CB-BA2E-3A27AD7C0224}</ProjectGuid>
+    <ProjectGuid>{EFB72556-AAF6-4A29-BA94-A758C24F5F12}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TalpaDue</RootNamespace>
-    <AssemblyName>TalpaDue</AssemblyName>
+    <RootNamespace>talpa_2</RootNamespace>
+    <AssemblyName>talpa 2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

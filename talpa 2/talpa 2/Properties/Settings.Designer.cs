@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TalpaDue.Properties
+namespace talpa_2.Properties
 {
 
 
